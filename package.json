@@ -1,0 +1,21 @@
+{
+  "name": "dad-stack",
+  "version": "0.0.1",
+  "description": "A RENS Stack Cli",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "Layne Faler <laynefaler>",
+  "license": "ISC",
+  "bugs": {
+  },
+  "preferGlobal": true,
+  "bin": {
+    "dad": "./actions/index.js"
+  },
+  "dependencies": {
+    "jsonfile": "^2.4.0",
+    "ncp": "^2.0.0"
+  }
+}

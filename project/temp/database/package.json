@@ -1,0 +1,20 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.13.0",
+    "pg": "^6.2.4",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.0.0",
+    "sequelize-cli": "^2.7.0",
+    "sqlite3": "^3.1.8"
+  }
+}
