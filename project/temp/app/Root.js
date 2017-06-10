@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import styles from './sass/index'
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import reduxThunk from 'redux-thunk'
-import createLogger from 'redux-logger'
+import { createLogger } from 'redux-logger'
 import ReduxPromise from 'redux-promise'
 import reducers from './redux/store/combineReducers'
 

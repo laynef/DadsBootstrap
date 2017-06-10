@@ -10,7 +10,6 @@ const cookieParser = require('cookie-parser')
 const session = require('express-session')
 const favicon = require('express-favicon')
 const fs = require('fs')
-const config = require('../config')
 
 // port settings
 let port = process.env.PORT || 3333
