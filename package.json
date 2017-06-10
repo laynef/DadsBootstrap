@@ -1,6 +1,6 @@
 {
   "name": "dad-stack",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A RENS Stack Cli",
   "repository": {
     "type": "git"
