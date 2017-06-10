@@ -8,6 +8,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
+                loader: 'url-loader'
+            },
+            {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
                 use: [{
